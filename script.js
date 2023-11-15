@@ -42,3 +42,22 @@ invia.addEventListener ('click',function () {
 
 
 })
+
+let listaEmail = ['luca@boolean.it','gino@boolean.it','gina@boolean.it']
+console.log (listaEmail)
+
+
+const inviaEmail = document.querySelector ("#bottone");
+
+
+inviaEmail.addEventListener ('click',function () {
+
+    const email = document.querySelector("#input").value;
+
+
+})
+
+
+
+
+
