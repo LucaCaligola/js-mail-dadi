@@ -52,7 +52,22 @@ const inviaEmail = document.querySelector ("#bottone");
 
 inviaEmail.addEventListener ('click',function () {
 
-    const email = document.querySelector("#input").value;
+    const email = document.querySelector("#email").value;
+    console.log (email)
+
+    if ( (listaEmail.includes(email))) {
+        document.getElementById ('presente').innerHTML = ('✅ La tua tua email è nella lista, puoi accedere!')
+
+
+    }
+
+    else {
+        document.getElementById ('presente').innerHTML = ('🚫 Non puoi entrare, la tua email non è nella lista')
+        
+
+    }
+    
+   
 
 
 })
